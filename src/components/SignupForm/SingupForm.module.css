@@ -1,0 +1,108 @@
+/* signup component main div */
+.signup{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+}
+
+/* left side image div on the page */
+.signupImg{
+    overflow-y: hidden;
+    position: relative;
+}
+/* SINGUP PAGE Image */
+.signupImg img{
+    height: 100%;
+    width: 100%;
+    /* opacity: 0.9; */
+}
+/* urban cart heading */
+.signupImg span{
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size :max(2vh,4vw);
+    
+    
+}
+
+/* credentials parent div */
+.credentialsOuterDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* right side div having all crednetail*/
+.credentialsDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;   
+}
+
+.credentialsDiv button{
+    background-color: crimson;
+}
+
+/* div with fullname, email, pass , button,  */
+.inputFeildDiv{
+    display: flex;
+    flex-direction: column;
+    margin-block:5% ;
+    min-width: 40%;
+}
+
+
+/* div having create acc span with text create account */
+.createAccHeading{
+    font-size: clamp(1rem, 1.5vw + 1rem, 2rem);
+    font-weight: 500;
+    color: rgb(45, 45, 45);
+}
+
+@media only screen and (max-width:450px) {
+    .signup{
+        display: flex;
+        flex-direction: column;
+    }
+    .credentialsDiv{
+        margin-block: 10%;
+        max-width: 50%;
+    }
+    .socialDiv{
+        width: 100%;
+    }
+    .signupImg{
+        max-height: 30vw;    
+    }
+}
+
+
+/* already have an acc div */
+.loginSwitch{
+    font-size: clamp(0.8rem,11vw,0.4rem);
+    color: rgb(97, 97, 97);
+    text-align: center;
+}
+
+.loginSwitch span{
+    cursor: pointer;
+    color: crimson;
+}
+
+/* social acc fb insta twitter youtube div */
+.socialDiv{
+    min-width: 30%;
+    color: rgb(97, 97, 97);
+    display: flex;
+    justify-content: space-evenly;
+}
+/* individual icon */
+.socialDiv svg{
+    cursor: pointer;
+}

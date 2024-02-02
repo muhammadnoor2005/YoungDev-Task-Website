@@ -1,0 +1,14 @@
+/* this much items found div */
+.itemCountDiv{
+    padding: var(--body-margin);
+    color: var(--theme-color);
+    font-size: var(--font-size);
+}
+
+
+.noProductFoundDiv{
+    display:flex;
+    justify-content:center;
+    color:var(--theme-color);
+    font-size: var(--font-size);
+}

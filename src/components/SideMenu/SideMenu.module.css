@@ -1,0 +1,40 @@
+/* when menu is closed */
+
+.mainBodyHide{
+    display: none;
+    opacity: 0;
+}
+
+/* when screen size is more than 450 px then hide the menu button */
+.showHide{
+    display: none;
+    width: 0;
+}
+
+/* 3 bar menu button */
+.menuOpenButton{
+    color: var(--theme-color);
+}
+
+/* with all options */
+.mainBody{
+    z-index: 1;
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: var(--body-margin);
+    background-color: wheat;
+    color: var(--theme-color);
+    font-size: var(--font-size);
+    font-weight: 500;
+    border-radius: 10px;
+}
+.optionsDiv div{
+    margin:var(--body-margin) ;
+    cursor: pointer;
+}
+@media only screen and (max-width:450px){
+    .showHide{
+        display: block ;
+    }
+}

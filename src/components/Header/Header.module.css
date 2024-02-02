@@ -1,0 +1,98 @@
+ 
+
+.mainDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: var(--body-margin);
+}
+
+/* contains  home shop product about */
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: max(21vh,24vw);
+}
+
+.navBar span{
+    cursor: pointer;
+    color: var(--theme-color);
+    font-size: var(--font-size);
+    transition: color 0.3s ease;
+}
+.navBar span:hover{
+    color:rgb(18, 16, 16) ;
+}
+
+/* hides navbar when the page is except home page */
+.navBarHide{
+    display: none;
+}
+
+
+/* contain search box cart icon and logout button */
+.searchCart{
+    /* min-width: max(13vh,10vw); */
+    min-width: min(58vw,40vh);
+    
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    color: var(--theme-color);
+}
+
+/* cart and search icon */
+.searchCart svg{
+    color: var(--theme-color);
+    cursor: pointer;
+    margin-left:3px ;
+    /* height: max(2vw,2vh); */
+}
+
+.searchCart input{
+    max-width: max(9vw,15vh);
+    font-size: var(--section-text-f-size);
+}
+.searchCart form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logout button div */
+.logoutButton{
+    padding: 2%;
+    border: 1px solid var(--theme-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-size: max(0.7rem,1vw);
+}
+/* color change on hover */
+.logoutButton:hover{
+    background-color: crimson;
+    color: white;
+}
+
+/* urbancart logo at left */
+.brandName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width:  min(18vw,10vh);
+}
+.brandName span{
+    cursor: pointer;
+    font-size: var( --heading-font-size);
+    font-weight: 500;
+    color: var(--theme-color);
+}
+
+
+@media only screen and (max-width:450px){
+    .navBar{
+        display: none;
+    }
+   
+}
+

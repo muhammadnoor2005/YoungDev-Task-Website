@@ -1,0 +1,162 @@
+[
+    {
+        "id":1,
+        "name":"Automatic Watch",
+        "img":"/products/automaticWatch.jpg",
+        "price":2999,
+        "category":"watch",
+        "description":""
+    },
+    {
+        "id":2,
+        "name":"Black Market",
+        "img":"/products/blackMarket.jpg",
+        "price":999,
+        "category":"perfume",
+        "description":""
+    },
+    {
+        "id":3,
+        "name":"Brut",
+        "img":"/products/brut.jpeg",
+        "price":1199,
+        "category":"perfume",
+        "description":""
+    },
+    {
+        "id":4,
+        "name":"Dunhill",
+        "img":"/products/dunhill.jpeg",
+        "price":899,
+        "category":"perfume",
+        "description":""   
+    },
+    {
+        "id":5,
+        "name":"Blue Jacket",
+        "img":"/products/jacket.jpg",
+        "price":3499,
+        "category":"jacket",
+        "description":""   
+    },
+    {
+        "id":6,
+        "name":"Gray Jacket",
+        "img":"/products/jacket1.jpg",
+        "price":2699,
+        "category":"jacket",
+        "description":""   
+    },
+    {
+        "id":7,
+        "name":"Winter Jakcet",
+        "img":"/products/jacket2.jpg",
+        "price":4590,
+        "category":"jacket",
+        "description":""   
+    },
+    {
+        "id":8,
+        "name":"Pair Watches",
+        "img":"/products/pairWatch.jpeg",
+        "price":3000,
+        "category":"watch",
+        "description":""   
+    },
+    {
+        "id":9,
+        "name":"Perfume",
+        "img":"/products/perfume.jpeg",
+        "price":699,
+        "category":"perfume",
+        "description":""   
+    },
+    {
+        "id":10,
+        "name":"Rolex Watch",
+        "img":"/products/rolexWatch.jpeg",
+        "price":8999,
+        "category":"watch",
+        "description":""   
+    },
+    {
+        "id":11,
+        "name":"Suit",
+        "img":"/products/shirt1.jpg",
+        "price":1599,
+        "category":"shirt",
+        "description":""   
+    },
+    {
+        "id":12,
+        "name":"White Shoes",
+        "img":"/products/shoes1.jpeg",
+        "price":2000,
+        "category":"shoes",
+        "description":""   
+    },
+    {
+        "id":13,
+        "name":"Black shoes",
+        "img":"/products/shoes2.jpg",
+        "price":2489,
+        "category":"shoes",
+        "description":""   
+    },
+    {
+        "id":14,
+        "name":"Casual Shoes",
+        "img":"/products/shoes3.jpg",
+        "price":1299,
+        "category":"shoes",
+        "description":""   
+    },
+    {
+        "id":15,
+        "name":"Fashion Wear",
+        "img":"/products/shoes4.jpg",
+        "price":999,
+        "category":"shoes",
+        "description":""   
+    },
+    {
+        "id":16,
+        "name":"Sports Shoes",
+        "img":"/products/shoes5.jpeg",
+        "price":4599,
+        "category":"shoes",
+        "description":""   
+    },
+    {
+        "id":17,
+        "name":"Business Watch",
+        "img":"/products/watch.jpeg",
+        "price":2799,
+        "category":"watch",
+        "description":""   
+    },
+    {
+        "id":18,
+        "name":"Ladies Watch",
+        "img":"/products/watch2.jpeg",
+        "price":1599,
+        "category":"watch",
+        "description":""   
+    },
+    {
+        "id":19,
+        "name":"Blue Watch",
+        "img":"/products/watch3.jpg",
+        "price":2199,
+        "category":"watch",
+        "description":""   
+    },
+    {
+        "id":20,
+        "name":"Winter Cap",
+        "img":"/products/winterCap.jpg",
+        "price":499,
+        "category":"cap",
+        "description":""   
+    }
+]

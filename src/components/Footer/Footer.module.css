@@ -1,0 +1,65 @@
+/* positon relative div */
+.posRelDiv{
+    position: relative;
+}
+
+/* second div of footer component */
+.footer{
+    background-color: crimson;
+    position: absolute;
+    /* bottom: 0; */
+    min-width: 100%;
+}
+/* third div of footer component */
+.footerBody{
+    display: flex;
+    justify-content: space-between;
+    padding: max(1vw,1vh) max(5vw,2vh);
+    font-size: var(--font-size);
+    
+}
+
+
+/* footer trending items */
+.footerTrending{
+    display: flex;
+    flex-direction: column;
+    color: rgb(226, 226, 226);
+}
+.footerTrending span{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+
+/* "Trending" text inside footer */
+.trendingHeading{
+    font-weight: 500;
+    color: white;
+}
+
+/* follow us div in footer. */
+.followusDiv div{
+    color:  rgb(216, 216, 216);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* urban cart name written inside footer */
+.logoHeadingInFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: var( --heading-font-size);
+    cursor: pointer;
+}
+
+.copyrightDiv{
+    display: flex;
+    justify-content: center;
+    font-size: var(--font-size);
+    background-color: rgb(227, 227, 227);
+    padding: max(1vw,1vh) max(5vw,2vh);
+}
+

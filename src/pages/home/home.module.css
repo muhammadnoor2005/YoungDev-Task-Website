@@ -1,0 +1,6 @@
+.mainBody{
+    margin: max(1vw,1vh) max(5vw,2vh);
+    
+}
+
+/* apllying pos rel to footer to display it at bottom always */

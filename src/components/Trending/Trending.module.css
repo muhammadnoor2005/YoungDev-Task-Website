@@ -1,0 +1,30 @@
+/* trending cards div */
+.cardDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* "TRENDING" text with hrs div */
+.trendingTxtWithHr{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: max(0.8vw,0.4vh);
+}
+.trendingTxtWithHr p{
+    display: block;
+    line-height: 0.5vw;
+    color: var(--theme-color);
+    font-size:var(--section-heading-f-size);
+}
+.trendingTxtWithHr span{
+    color: rgb(103, 103, 103);
+    font-size: var(--section-text-f-size) ;
+}
+
+/* top most div fo Trending component */
+.trendingMainDiv{
+    margin-block: max(4vw,1vh);
+}

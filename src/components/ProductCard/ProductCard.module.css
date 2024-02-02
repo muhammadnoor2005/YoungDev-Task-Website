@@ -1,0 +1,46 @@
+/* main product card div */
+.cardBody{
+    border-radius: 10px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.3s ease;
+    border: 1px solid rgb(231, 231, 231);
+    
+    /* height: max(26vw,1vh); */
+    width:var(--product-card-size);
+    cursor: pointer;
+
+}
+.cardBody:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+
+}
+
+/* both name and price span */
+.cardBody span{
+    margin-left: max(1vw,1vh);
+    font-size: var(--font-size);
+    
+}
+
+/* product name */
+.name{
+    margin-top: max(1vw,1vh);
+    color: rgb(54, 54, 54);
+}
+
+/* product price */
+.price{
+    color: crimson;
+    margin-bottom: max(1vw,1vh);
+}
+
+/* product image */
+.img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    height: var(--product-card-size);
+    width:  var(--product-card-size);
+}

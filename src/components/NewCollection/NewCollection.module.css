@@ -1,0 +1,21 @@
+/* div containing all the mapped products */
+.allProductsDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: max(3vw);
+    margin-top: max(2vw,2vh);
+    margin-bottom: max(20vw,30vh);
+}
+
+/* to center the grid elements */
+.allProductsDiv div{
+    margin-inline: auto;
+}
+
+@media only screen and (max-width: 440px){
+    .allProductsDiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+
+    }
+}

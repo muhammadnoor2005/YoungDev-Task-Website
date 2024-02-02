@@ -1,0 +1,77 @@
+/*parent div of landingImage*/
+.mainDiv{
+    border-radius: 10px;
+    margin-block: max(1.2vw,1.1vh);
+    height: max(35vw,22vh);
+    min-width: max(80vw,20vh); 
+    overflow: hidden;
+    position: relative;
+
+    /*shadow*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+/* crimson color background */
+.landingImg{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+/* red shirt person */
+.personImg{
+    position: absolute;
+    left: max(5vw);
+    height: max(35vw,25vh);
+}
+
+/* landing text div*/
+.landingTextDiv{
+    position: absolute;
+    top: max(5vw,3vh);
+    left: max(45vw,21vh);
+    width: max(24vw,21vh);
+}
+/* the best collection... text div*/
+.theBestCollection{
+    font-size: min(3rem,5vw);
+    font-weight: 800;
+    color: wheat;
+}
+.collectionText{
+    color: white;
+}
+
+/* a short description below landing text */
+.shortDescription{
+    font-size: max(0.6rem,1.2vw);
+    display: block;
+    line-height: max(0.6rem,1.5vw);
+    color: rgb(250, 231, 195);
+
+}
+
+/* shop Now  button */
+.shopNowButton{
+    margin-top: max(0.7vw,0.7vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: max(7vw,10vh);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: max(0.6rem,1.2vw);
+    color: var(--theme-color);
+    border: 1px solid wheat;
+    background-color: wheat;
+    padding: max(0.7vw,0.5vh);
+    transition: background-color 0.5s ease;
+    font-weight: 500;
+}
+
+/* color change on hover */
+.shopNowButton:hover{
+    background-color: var(--theme-color);
+    color: wheat;
+    border-color: var(--theme-color);
+}
