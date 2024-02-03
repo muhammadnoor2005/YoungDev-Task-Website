@@ -13,15 +13,17 @@ import styles from "./search.module.css";
 export default function({products}){
     const router = useRouter();
     const {item} = router.query;
+    const itemTosearch = item.toLowerCase();
     const [mappedProducts,setMappedProducts] = useState();
 
     const searchedItem = [];
 
     products.forEach((p) => {
-        if(item.includes(p.category) || (p.category).includes(item)){
+        if(itemTosearch.includes(p.category) || (p.category).includes(itemTosearch)){
             searchedItem.push(p);
         }
     });
+
 
     useEffect(() => {
         if(searchedItem.length !== 0){
